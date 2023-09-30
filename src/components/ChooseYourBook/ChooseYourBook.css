@@ -1,0 +1,84 @@
+.content {
+    width: 100%;
+    height: 740px;
+    background-color: #F8F9FA;
+    padding: 0 6%;
+    padding-top: 50px;
+    text-align: center;
+}
+.content .content_title hr{
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    color: rgb(72, 73, 73);
+    height: 3px;
+}
+.content h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+    color: black;
+}
+.d-flex.align-items-start.bg-light.mb-3 {
+    width: 100%;
+    height: 370px;
+    margin-top: 30px;
+    
+}
+.content .thumbnail {
+    width: 260px;
+    object-fit: cover;
+    height: 330px;
+    filter:brightness(70%);
+    
+}
+#thumbnail {
+    width: 280px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.content .card_type:hover .thumbnail{
+    transform: scale(1.2);
+    transition: 1s;
+    filter:brightness(20%);
+} 
+.content .btn_more {
+    width: 315px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
+.content .btn_more:hover {
+    color: black;
+    background-color: #DE3241;
+    border: none;
+}
+.card_type{
+    position: relative;
+}
+
+.book_type {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+}
+.show_more {
+    color: aliceblue;
+    margin-bottom: 0;
+    display: none;
+    color: #DE3241;
+    font-weight: 500;
+}
+#book_type {
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.content .card_type:hover .show_more{
+    display: block;
+}

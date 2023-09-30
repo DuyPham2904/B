@@ -1,0 +1,32 @@
+.home_scroll {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+svg.btn_scroll {
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.home_scroll:hover {
+    background-color: rgb(240, 83, 83);
+}
+
+*:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+button.swal-button.swal-button--confirm {
+    background-color: #DE3241;
+    color: rgb(0, 0, 0);
+}
+button.swal-button.swal-button--confirm:hover {
+    background-color: #f8061a;
+}

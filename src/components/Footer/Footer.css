@@ -1,0 +1,71 @@
+.footer {
+    height: 700px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+.footer .footer_top {
+    height: 230px;
+    background-color: #DE3241;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+.footer .footer_top h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+.footer .footer_top span {
+    color: black;
+}
+.footer_top .more_info {
+    width: 177px;
+    height: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.footer_top .more_info:hover { 
+    background-color: crimson;
+    border: 1px solid #696969;
+}
+.footer .footer_bottom {
+    height: 600px;
+    width: 100%;
+    padding: 0px 8%;
+    padding-top: 80px;
+    background-color: #F8F9FA;
+}
+.footer .footer_bottom .footer_info {
+    height: 500px;
+}
+.footer .footer_bottom .footer_info ul {
+    padding-left: 0rem;
+}
+.footer .footer_bottom .footer_info li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #797979;
+}
+.footer .footer_bottom .footer_info p,.footer_end {
+    font-size: 17px;
+    color: #797979;
+}
+.footer .footer_bottom .footer_info span{
+    color: #DE3241;
+    font-weight: 700;
+}
+.footer_bottom .whats_new .book1 .card{
+    display: flex;
+}
+.footer .footer_bottom .footer_info .link ul li{
+    cursor: pointer;
+}
+.footer .footer_bottom .footer_info .link ul li:hover{ 
+    color: #DE3241;
+    font-weight: 600;
+}

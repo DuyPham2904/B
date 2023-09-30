@@ -1,0 +1,29 @@
+.order_received {
+    width: 100%;
+    height: 1150px;
+    background-color: #F5F5F4;
+}
+
+.order_received .checkout_title {
+    width: 100%;
+    height: 165px;
+    background-color: #171717;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.order_received .order_received_content {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.order_received .order_received_content .order_received_infor h3 {
+    margin-bottom: 20px;
+}
+
+.order_received .order_received_content .order_received_infor .order_received_infor_gen {
+    width: 450px;
+}

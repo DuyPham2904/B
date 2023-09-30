@@ -1,0 +1,50 @@
+.bookstore {
+    width: 100%;
+    height: 300vh;
+}
+
+.bookstore .bookstore_title {
+    width: 100%;
+    height: 165px;
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bookstore .bookstore_viewblog {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 80px 0;
+}
+
+.bookstore .bookstore_title h1 {
+    font-size: 45px;
+}
+
+.bookstore .bookstore_content {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bookstore .bookstore_filter {
+    width: 30%;
+    height: 100px;
+    padding-right: 30px;
+    background-color: blueviolet;
+}
+
+.bookstore .bookstore_list {
+    width: 100%;
+    height: 180vh;
+    padding-left: 30px;
+}
+
+.img {
+    margin-bottom: 170px;
+}

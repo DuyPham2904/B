@@ -1,0 +1,289 @@
+.menu {
+    width: 85%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.menu .logo {
+    width: 20%;
+}
+
+.menu .logo img {
+    width: 80%;
+}
+
+.menu .main_menu {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    border-right: 1px solid #d4b9bb;
+    padding-right: 50px;
+}
+
+.menu .menu_icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+
+}
+
+.menu .main_menu .link {
+    margin-left: 30px;
+}
+
+.menu .main_menu span {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(46, 45, 45);
+}
+
+.menu .main_menu span:hover {
+    color: #DE3241;
+    box-shadow: 0 2px #DE3241;
+}
+
+.icon {
+    color: black;
+}
+
+.menu .menu_icons {
+    display: flex;
+    margin-left: 20px;
+}
+
+svg#search {
+    margin-left: 30px;
+}
+
+svg.icon {
+    font-size: 30px;
+}
+
+svg.icon:hover,
+#search:hover {
+    color: #DE3241;
+    transition: 0.5s;
+}
+
+.menu .menu_icons .amount {
+    background-color: #DE3241;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    top: 15px;
+    left: 15px;
+
+}
+
+.menu .menu_icons .basket_link {
+    position: relative;
+}
+
+.menu .menu_btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.menu .menu_btn svg {
+    color: #0e0d0d;
+    font-size: 30px;
+}
+
+.menu .menu_btn:hover svg {
+    color: #DE3241;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu .main_menu {
+        display: none;
+    }
+
+    .menu .menu_btn {
+        display: flex;
+    }
+
+    .menu .logo {
+        display: none;
+    }
+}
+
+.sidebar {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 540px;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+.sidebar .sidebar_top {
+    height: 110px;
+    padding: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar .sidebar_top svg.sidebar_close {
+    font-size: 30px;
+
+}
+
+.sidebar .sidebar_top svg.sidebar_close:hover {
+    cursor: pointer;
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite;
+}
+
+@keyframes xoayvong {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+.sidebar .sidebar_main {
+    line-height: 40px;
+    padding: 10px 0;
+}
+
+.sidebar .sidebar_main ul li {
+    list-style: none;
+    padding-left: 5%;
+}
+
+.sidebar .sidebar_main ul li span:hover {
+    color: #DE3241;
+    font-weight: 700;
+}
+
+.sidebar .sidebar_main ul li span {
+    color: black;
+    font-size: 20px;
+}
+
+.sidebar hr {
+    margin-left: 11%;
+}
+
+.sidebar .sidebar_bottom {
+    padding-left: 10%;
+}
+
+.sidebar .sidebar_bottom svg {
+    margin-right: 30px;
+    font-size: 23px;
+    color: #000000;
+}
+
+.sidebar .sidebar_bottom svg:hover {
+    color: #DE3241;
+}
+
+.menu .active {
+    display: none;
+}
+
+.search_ipt {
+    width: 800px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    right: 0%;
+    background-color: #ffffff;
+}
+
+.search_ipt .search_input_close {
+    border: none;
+    color: black;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.search_ipt .search_input_close:hover {
+    animation: xoayvong 2s linear 0s infinite;
+
+}
+
+@keyframes xoayvong {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+.search_ipt .input-group {
+    width: 80%;
+    height: 50px;
+}
+
+.search_ipt svg {
+    font-size: 30px;
+}
+
+.search_ipt input.form-control {
+    border: none;
+    font-size: 30px;
+}
+
+.search_ipt span.input-group-text {
+    width: 60px;
+    font-size: 25px;
+    border: none;
+
+}
+
+input.search_input_text.form-control {
+    height: 100%;
+    background-color: #d4d0d0;
+
+}
+
+span.input-group-text {
+    height: 100%;
+
+}

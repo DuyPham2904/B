@@ -1,0 +1,71 @@
+.contacts {
+    width: 100%;
+    background-color: #F5F5F4;
+    padding-bottom: 50px;
+}
+
+.contacts .contacts_title {
+    width: 100%;
+    height: 165px;
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.contacts .contacts_title h1 {
+    font-size: 45px;
+}
+.contacts .contacts_content{
+    display: flex;
+    width: 100%;
+    margin: 0 8%;
+}
+.contacts .contacts_content .contacts_content_left {
+    width: 30%;
+    line-height: 40px;
+    padding-right: 20px;
+}
+.contacts .contacts_content .contacts_content_left h2{
+    font-size: 50px;
+}
+.contacts .contacts_content .contacts_content_right {
+    width: 70%;
+    margin-right: 15%;
+}
+
+.contacts .contacts_content .contacts_content_right .contacts_content_right_form {
+    line-height: 20px;
+}
+
+.contacts .contacts_content .contacts_content_right input {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: none;
+}
+.contacts .contacts_content .contacts_content_right textarea.contact_text_message {
+    height: 130px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: none;
+}
+.contacts .contacts_content .contacts_content_right .contact_btn_send {
+    width: 204px;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    border-radius: 0px;
+    margin-top: 40px;
+}
+
+.contacts .contacts_content .contacts_content_right .contact_btn_send:hover { 
+    background-color: #F5F5F4;
+    color: #000000;
+}

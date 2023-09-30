@@ -1,0 +1,81 @@
+.checkout {
+    width: 100%;
+    height: 1150px;
+    background-color: #F5F5F4;
+}
+
+.checkout .checkout_title {
+    width: 100%;
+    height: 165px;
+    background-color: #171717;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.checkout .checkout_content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.checkout .checkout_content .checkout_detail {
+    width: 58%;
+}
+
+.checkout .checkout_content .checkout_detail input {
+    height: 55px;
+}
+
+.checkout .checkout_content .checkout_pay {
+    width: 38%;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_yourorder {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_yourorder .checkout_yourorder_content {
+    line-height: 50px;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_pay .checkout_payment_content {
+    line-height: 50px;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_payment {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding: 50px;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_payment .checkout_payment_content {
+    line-height: 40px;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_btn_finish {
+    width: 180px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.checkout .checkout_content .checkout_pay .checkout_btn_finish:hover {
+    color: rgb(172, 32, 32);
+    background-color: #F5F5F4;
+    border: 2px solid black;
+    cursor: pointer;
+}

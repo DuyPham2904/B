@@ -1,0 +1,99 @@
+.bookdetail {
+    width: 100%;
+    height: 1650px;
+    background-color: #F5F5F4;
+}
+
+.bookdetail .bookdetail_title {
+    width: 100%;
+    height: 18vh;
+    background-color: #171717;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bookdetail .bookdetail_title h1 {
+    font-size: 45px;
+}
+
+.bookdetail .bookdetail_content {
+    padding: 70px 0;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bookdetail .bookdetail_content .bookdetail_img {
+    height: 65vh;
+    width: 40%;
+    padding-right: 30px;
+}
+
+.bookdetail .bookdetail_content .bookdetail_img .bookdetail_cover {
+    width: 100%;
+    height: 100%;
+}
+
+.bookdetail .bookdetail_content .bookdetail_infor {
+    width: 60%;
+    height: 70vh;
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+.bookdetail .bookdetail_content .bookdetail_infor h1,
+h6 {
+    margin-bottom: 20px;
+}
+
+.bookdetail .bookdetail_content .bookdetail_infor .bookdetail_btn {
+    display: flex;
+    margin-top: 30px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.bookdetail_btn_amount {
+    width: 110px;
+    height: 60px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #171717;
+}
+
+.bookdetail_btn_add {
+    width: 200px;
+    height: 60px;
+    color: rgb(14, 14, 13);
+    background-color: #fff;
+    font-weight: 700;
+    border: none;
+}
+
+.bookdetail_btn_add:hover {
+    color: #F5F5F4;
+    background-color: black;
+}
+
+.bookdetail .bookdetail_related {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bookdetail .bookdetail_related hr {
+    width: 80px;
+    margin-left: 47%;
+    height: 3px;
+    margin-bottom: 40px;
+}

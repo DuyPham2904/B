@@ -1,0 +1,41 @@
+.bookcard {
+    width: 170px;
+    height: 40vh;
+}
+
+.bookcard .card {
+    width: 160px;
+    height: 450px;
+}
+
+.bookcard img.cards_img {
+    width: 100%;
+    height: 60%;
+}
+
+.bookcard .card-title {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.bookcard .card-body {
+    color: black;
+    width: 100%;
+    padding: 20px 10px;
+    line-height: 20px;
+}
+
+.bookcard_price {
+    color: rgb(252, 5, 5);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bookcard_btn_add {
+    background-color: rgb(92, 92, 88);
+    margin-top: 10px;
+    border: none;
+    color: rgb(253, 246, 246);
+    font-weight: 700;
+}
